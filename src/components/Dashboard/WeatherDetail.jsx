@@ -26,16 +26,13 @@ class WeatherDetail extends Component {
             currentDate: new Date()
         })
         const firstDay = [];
-        this.state.currentWeather.map((item, index) => {
-            if (index < 6) {
-                // firstDay.push((item.dt_txt).slice(11, 13))
-                console.log(item.main)
-            }
+        // this.state.currentWeather.map((item, index) => {
 
 
-        }
 
-        )
+        // }
+
+        // )
 
         this.setState({
             isLoading: false,
